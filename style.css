@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gridbox{
+    
+  text-align: center;
+  padding: 50px;
+  font-size: 30px;
+}
+
+.container{
+    display: grid;
+    grid-template-areas: 
+    'bir iki iki uc'
+    'bir dord bes alti'
+    'bir yeddi seggiz alti';
+    gap: 10px 10px;
+    box-shadow: 0 0 40px black;
+    padding: 10px;
+    width: 1100px;
+    height: 500px;
+    margin: 200px 400px;
+
+}
+.item1{
+    grid-area: bir;
+    background-color: rgb(21, 255, 0);
+}
+.item2{
+    grid-area: iki;
+    background-color: rgb(0, 255, 0);
+}
+.item3{
+    grid-area: uc;
+    background-color: rgb(255, 59, 59);
+}
+.item4{
+    grid-area: dord;
+    background-color: rgb(255, 179, 37);
+}
+.item5{
+    grid-area:bes;
+    background-color: rgb(255, 59, 59);
+}
+.item6{
+    grid-area:alti;
+    background-color: rgb(0, 247, 12);
+}
+.item7{
+    grid-area:yeddi;
+    background-color: rgb(255, 59, 59);
+}
+.item8{
+    grid-area:seggiz;
+    background-color: rgb(255, 179, 37);
+
+}
